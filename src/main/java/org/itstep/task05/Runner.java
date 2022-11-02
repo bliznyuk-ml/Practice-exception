@@ -8,7 +8,7 @@ public class Runner {
 
     public void halt() throws IOException {
         if (rnd.nextBoolean()) {
-            throw new RuntimeException ();
+            throw new RuntimeException();
         } else {
             throw new IOException();
         }
